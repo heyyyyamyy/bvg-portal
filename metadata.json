@@ -1,0 +1,6 @@
+{
+  "name": "Background Verification Portal",
+  "description": "A portal for admins to manually manage candidate background checks and for candidates to view their status.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
