@@ -17,7 +17,7 @@ const initialCandidates: Candidate[] = [
     offeredDepartment: 'Engineering',
     salaryOffered: '$120,000',
     expectedLocation: 'New York',
-    currentStage: 'Offer Letter Issued',
+    currentStage: 'Offer Letter Released',
     remarks: 'Strong technical skills.',
     username: 'alice.smith',
     password: 'password123',

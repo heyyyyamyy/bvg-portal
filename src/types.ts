@@ -1,22 +1,26 @@
 export type ApplicationStage = 
-  | 'Level 1 Screening'
-  | 'Level 2 Technical Interview'
+  | 'Application Submitted'
+  | 'HR Screening'
+  | 'Technical Round 1'
+  | 'Technical Round 2'
   | 'Salary Discussion'
-  | 'Appointment Letter Issued'
-  | 'Background Verification In Progress'
+  | 'Appointment Letter'
+  | 'Background Verification Started'
   | 'Background Verification Completed'
-  | 'Offer Letter Issued'
+  | 'Offer Letter Released'
   | 'Onboarding'
   | 'Joined';
 
 export const APPLICATION_STAGES: ApplicationStage[] = [
-  'Level 1 Screening',
-  'Level 2 Technical Interview',
+  'Application Submitted',
+  'HR Screening',
+  'Technical Round 1',
+  'Technical Round 2',
   'Salary Discussion',
-  'Appointment Letter Issued',
-  'Background Verification In Progress',
+  'Appointment Letter',
+  'Background Verification Started',
   'Background Verification Completed',
-  'Offer Letter Issued',
+  'Offer Letter Released',
   'Onboarding',
   'Joined'
 ];
