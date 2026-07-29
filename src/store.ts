@@ -1,30 +1,26 @@
 import { Candidate } from './types';
 
-const STORAGE_KEY = 'bg_verification_candidates';
+const STORAGE_KEY = 'ats_candidates';
 
 const initialCandidates: Candidate[] = [
   {
     id: '1',
     name: 'Alice Smith',
     email: 'alice@example.com',
-    phone: '555-0101',
-    address: '123 Main St, Anytown',
-    joiningDate: '2026-08-15',
-    employmentHistoryStatus: 'Verified',
-    criminalBackgroundStatus: 'Pending',
-    overallStatus: 'In Progress',
-    createdAt: new Date().toISOString(),
-  },
-  {
-    id: '2',
-    name: 'Bob Jones',
-    email: 'bob@example.com',
-    phone: '555-0102',
-    address: '456 Oak Ave, Somewhere',
-    joiningDate: '2026-09-01',
-    employmentHistoryStatus: 'Pending',
-    criminalBackgroundStatus: 'Pending',
-    overallStatus: 'Pending',
+    mobile: '555-0101',
+    totalExperience: '5 years',
+    currentDesignation: 'Software Engineer',
+    currentDepartment: 'Engineering',
+    currentSalary: '$90,000',
+    currentLocation: 'New York',
+    designationAppliedFor: 'Senior Software Engineer',
+    offeredDepartment: 'Engineering',
+    salaryOffered: '$120,000',
+    expectedLocation: 'New York',
+    currentStage: 'Offer Letter Issued',
+    remarks: 'Strong technical skills.',
+    username: 'alice.smith',
+    password: 'password123',
     createdAt: new Date().toISOString(),
   }
 ];
